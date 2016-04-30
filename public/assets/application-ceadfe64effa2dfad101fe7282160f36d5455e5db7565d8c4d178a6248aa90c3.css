@@ -1,0 +1,409 @@
+/**
+ *   Here's where everything gets included. You don't need
+ *   to change anything here, and doing so might break
+ *   stuff. Here be dragons and all that.
+ */
+/**
+ *   Default variables
+ *
+ *   While these can be set with JavaScript, it's probably
+ *   better and faster to just set them here, compile to
+ *   CSS and include that instead to use some of that
+ *   hardware-accelerated goodness.
+ */
+
+.unslider-nav ol {
+  list-style: none;
+  text-align: center;
+}
+.unslider-nav ol li {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.unslider-nav ol li.unslider-active {
+  background: #fff;
+  cursor: default;
+}
+.unslider{overflow:auto;margin:0;padding:0}.unslider-wrap{position:relative}.unslider-wrap.unslider-carousel>li{float:left}.unslider-vertical>ul{height:100%}.unslider-vertical li{float:none;width:100%}.unslider-fade{position:relative}.unslider-fade .unslider-wrap li{position:absolute;left:0;top:0;right:0;z-index:8}.unslider-fade .unslider-wrap li.unslider-active{z-index:10}.unslider li,.unslider ol,.unslider ul{list-style:none;margin:0;padding:0;border:none}.unslider-arrow{position:absolute;left:20px;z-index:2;cursor:pointer;display:none;}.unslider-arrow.next{left:auto;right:20px}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 18, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 22, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 29, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.container {
+  padding: 0 200px 0 280px;
+  width: 100%;
+}
+
+/* line 33, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.main {
+  width: 100%;
+}
+
+/* line 36, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+a.btn {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+  height: 60px;
+  line-height: 60px;
+  margin: 40px 0;
+  padding: 0;
+  transition: background-color .5s;
+  width: 200px;
+}
+
+/* line 49, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 53, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.menu li {
+  display: inline;
+  line-height: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100px;
+  height: 100px;
+  margin: 0 20px 0 0;
+}
+
+/* line 62, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.menu li a {
+  color: #000;
+}
+
+/* line 65, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.name h1 {
+  color: #000;
+  font-size: 18px;
+  line-height: 100px;
+  height: 100px;
+  margin: 0;
+  text-align: right;
+}
+
+/* line 73, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.footer {
+  background-color: #fff;
+  height: 200px;
+  text-align: right;
+  width: 100%;
+}
+
+/* line 79, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.footer .social_media {
+  margin: 65px 0 20px;
+  width: 100%;
+}
+
+/* line 83, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.social_media li {
+  display: inline-block;
+  height: 24px;
+  margin: 0 0 0 10px;
+  text-align: left;
+  text-indent: -9999px;
+  width: 24px;
+}
+
+/* line 91, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.social_media li a {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+/* line 96, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.github {
+  background-image: url(/assets/github-1f3c8c2248a812d649663abed84481e2f8b2cc6f17619567cee2d819d2284733.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 101, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.linkedin {
+  background-image: url(/assets/linkedin-f37532062ee6d67f83ac0975ade12d960934649ed50db328a38505e5bf55a518.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 106, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.tumblr {
+  background-image: url(/tumblr.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 111, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.twitter {
+  background-image: url(/assets/twitter-14795f20e7ecb36863e680fa931e2b5de53fbd4bb9df6f295b9a49d1cbace76b.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 116, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.youtube {
+  background-image: url(/youtube.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 121, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.vimeo {
+  background-image: url(/vimeo.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 126, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.instagram {
+  background-image: url(/assets/instagram-14b50b80ba77aa7b149e1ef417a653a95bf617a5db49dfc881f5d011b88ed4ab.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 131, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.facebook {
+  background-image: url(/assets/facebook-7f1c7f06baa55106e3910a05c80832d98155878a663ddc7948355349897fade1.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 136, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.pinterest {
+  background-image: url(/pinterest.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 141, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.gplus {
+  background-image: url(/assets/gplus-d986f748677b4a778191a9fbbdd711355b7998919d52d6f25192cdc145c52a47.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 146, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.main .container {
+  margin: 80px 0;
+}
+
+/* line 149, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.main h2 {
+  color: #000;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: right;
+}
+
+/* line 155, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.home h2 {
+  color: #fff;
+}
+
+/* line 159, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.about h2 {
+  text-align: left;
+}
+
+/* line 162, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+a.btn:hover,
+.nav li a:hover,
+.nav-btn:hover {
+  background-color: #cc6cff;
+  color: #fff;
+  transition: background-color 0.5s;
+}
+
+/* line 169, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.home .jumbotron {
+  background: url(/assets/night-aeed303575811d1e0d8afd2cfc63be273dd9bf9cafabfb127fcd987d038f6d61.jpg);
+  background-size: cover;
+  min-height: 600px;
+  width: 100%;
+}
+
+/* line 175, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.portfolio .jumbotron {
+  height: 500px;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 181, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.portfolio .slideshow-container {
+  width: 100%;
+}
+
+/* line 184, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.portfolio .slide {
+  height: 500px;
+  overflow: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  width: 100%;
+}
+
+/* line 192, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.slide img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+/* line 198, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.project,
+.project:hover {
+  color: #000;
+  margin: 0 0 40px;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+/* line 205, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.project:hover {
+  color: #cc6cff;
+}
+
+/* line 208, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.project h3,
+.project p,
+.about h2,
+.about p {
+  padding: 0 20px 0;
+}
+
+/* line 214, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.project p {
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  max-height: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 223, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.thumbnail-header {
+  background-color: #eaeff4;
+  display: block;
+  height: 20px;
+  width: 100%;
+}
+
+/* line 229, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.thumbnail-header-btn {
+  background-color: #fff;
+  border-radius: 100%;
+  float: left;
+  height: 10px;
+  margin: 5px 0 0 5px;
+  width: 10px;
+}
+
+/* line 237, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.thumbnail {
+  border: 0;
+  border-radius: 0;
+  max-height: 240px;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 244, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.about .thumbnail {
+  max-height: 700px !important;
+}
+
+/* line 247, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.about h2 {
+  margin: 0 0 40px;
+}
+
+/* line 250, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.contact .row {
+  margin: 80px 0 0;
+}
+
+/* line 253, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.contact .col-md-2 a {
+  display: block;
+  height: 80px;
+  margin: 0 auto 40px;
+  text-indent: -9999px;
+  width: 80px;
+}
+
+/* line 260, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.highlight {
+  background-color: #eaeff4;
+  color: #000;
+  padding: 0 10px 0;
+}
+
+/* line 265, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+.right {
+  float: right;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 269, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+  .container {
+    padding: 0 20px 0 100px;
+    width: 100%;
+  }
+
+  /* line 273, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+  .slide img {
+    height: 100%;
+    width: auto;
+  }
+
+  /* line 277, C:/Users/Christian/Desktop/projects/rails/portfolio/app/assets/stylesheets/application.css.scss */
+  .contact .row:last-child {
+    margin: 0;
+  }
+}
