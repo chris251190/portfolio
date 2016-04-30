@@ -49,3 +49,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'sitemap', '~> 0.3.3'
+gem 'xml-sitemap', '~> 1.3', '>= 1.3.3'
+gem 'metamagic'
