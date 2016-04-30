@@ -1,0 +1,279 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+* {
+    margin: 0;
+    padding: 0
+}
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    height: 100%;
+    width: 100%
+}
+.container {
+    padding: 0 200px 0 280px;
+    width: 100%
+}
+.main {
+    width: 100%
+}
+a.btn {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    height: 60px;
+    line-height: 60px;
+    margin: 40px 0;
+    padding: 0;
+    transition: background-color .5s;
+    width: 200px
+}
+.menu ul {
+    list-style: none;
+    padding-left: 0
+}
+.menu li {
+    display: inline;
+    line-height: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100px;
+    height: 100px;
+    margin: 0 20px 0 0
+}
+.menu li a {
+    color: #000
+}
+.name h1 {
+    color: #000;
+    font-size: 18px;
+    line-height: 100px;
+    height: 100px;
+    margin: 0;
+    text-align: right
+}
+.footer {
+    background-color: #fff;
+    height: 200px;
+    text-align: right;
+    width: 100%
+}
+.footer .social_media {
+    margin: 65px 0 20px;
+    width: 100%
+}
+.social_media li {
+    display: inline-block;
+    height: 24px;
+    margin: 0 0 0 10px;
+    text-align: left;
+    text-indent: -9999px;
+    width: 24px
+}
+.social_media li a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+.github {
+    background-image: url("https://photos-1.dropbox.com/t/2/AABV-rAmIlR5BLueSC5bRXDjjCC_9CeAAZhUC-MTNqA5lw/12/232995043/png/32x32/1/_/1/2/github.svg/ELvnl8cBGO0HIAIoAg/HzyMIkioEtZJZjq-2ESB4viyzG8XYZVnzuLYGdIoRzM?size_mode=5");
+    background-position: center center;
+    background-size: cover;
+}
+.linkedin {
+    background-image: url("https://photos-6.dropbox.com/t/2/AACsCkKrlNmUn1y-wy1f8gRCrgRlFuVWO4F3JPOax3NxsQ/12/232995043/png/32x32/1/_/1/2/linkedin.svg/ELvnl8cBGO0HIAIoAg/83UyBi7m1n-DrAl1reEtlgk0ZJ7VDbMoo4UF5b9VpRg?size=1600x1200&size_mode=3");
+    background-position: center center;
+    background-size: cover;
+}
+.tumblr {
+    background-image: url(/tumblr.svg);
+    background-position: center center;
+    background-size: cover;
+}
+.twitter {
+    background-image: url("https://photos-5.dropbox.com/t/2/AADgOVc-SWPs_jxa87uttU9_ZT_zgI963h1BTPWXSf_ANA/12/232995043/png/32x32/1/_/1/2/twitter.svg/ELvnl8cBGO0HIAIoAg/FHlfIOfss2hj5oD6kx4rXeU_vUu5328pW5pJ0cus52s?size=1600x1200&size_mode=3");
+    background-position: center center;
+    background-size: cover;
+}
+.youtube {
+    background-image: url(/youtube.svg);
+    background-position: center center;
+    background-size: cover;
+}
+.vimeo {
+    background-image: url(/vimeo.svg);
+    background-position: center center;
+    background-size: cover;
+}
+.instagram {
+    background-image: url("https://photos-5.dropbox.com/t/2/AABU2yU-F1nJQKWbhbJHuXdvgQIUhMP_FnoJpn9iIMaESw/12/232995043/png/32x32/1/_/1/2/instagram.svg/ELvnl8cBGO0HIAIoAg/FLULgLp3qnsUnh70F6ZTqVv2F6XbSd_IgfXQEbiO1Ks?size=1600x1200&size_mode=3");
+    background-position: center center;
+    background-size: cover;
+}
+.facebook {
+    background-image: url("https://photos-3.dropbox.com/t/2/AAA4oy1XoCVScecAmW-y_2lZnBpxYc5HIFCEGYQUhuBuIA/12/232995043/png/32x32/1/_/1/2/facebook.svg/ELvnl8cBGO0HIAIoAg/fxx_BrqlUQbjkQoFyAgy2YFVh4pmPdx5SDVTSYl_reE?size=1600x1200&size_mode=3");
+    background-position: center center;
+    background-size: cover;
+}
+.pinterest {
+    background-image: url(/pinterest.svg);
+    background-position: center center;
+    background-size: cover;
+}
+.gplus {
+    background-image: url("https://photos-6.dropbox.com/t/2/AAB4J2CVGDTCYFTFvV-a6krACB6NTSk99wt-APebEO5T0w/12/232995043/png/32x32/1/_/1/2/gplus.svg/ELvnl8cBGO0HIAIoAg/2Yb3SGd7SneBkan7vdcRNVt5mJGdUtbyUZLNwUXFKkc?size=1600x1200&size_mode=3");
+    background-position: center center;
+    background-size: cover;
+}
+.main .container {
+    margin: 80px 0
+}
+.main h2 {
+    color: #000;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: right
+}
+.home h2 {
+    color: #fff
+}
+
+.about h2 {
+    text-align: left;
+}
+a.btn:hover,
+.nav li a:hover,
+.nav-btn:hover {
+    background-color: #cc6cff;
+    color: #fff;
+    transition: background-color .5s
+}
+.home .jumbotron {
+    background: url("https://photos-6.dropbox.com/t/2/AADIniNJ_9pAuW2x7IQiYNzdNSQQnJB1zHIxaiI3lHocbw/12/232995043/jpeg/32x32/1/_/1/2/city-houses-night-canal.jpg/ELvnl8cBGO0HIAIoAg/Z8WGTy5f3JTsq3ZhhvgfEkD8VrG3Rni3Gp78igr6-2A?size=1600x1200&size_mode=3") center center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%
+}
+.portfolio .jumbotron {
+    height: 500px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%
+}
+.portfolio .slideshow-container {
+    width: 100%
+}
+.portfolio .slide {
+    height: 500px;
+    overflow: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    width: 100%
+}
+.slide img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%
+}
+.project,
+.project:hover {
+    color: #000;
+    margin: 0 0 40px;
+    text-decoration: none;
+    transition: color .5s
+}
+.project:hover {
+    color: #cc6cff
+}
+.project h3,
+.project p,
+.about h2,
+.about p {
+    padding: 0 20px 0
+}
+.project p {
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    max-height: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.thumbnail-header {
+    background-color: #eaeff4;
+    display: block;
+    height: 20px;
+    width: 100%
+}
+.thumbnail-header-btn {
+    background-color: #fff;
+    border-radius: 100%;
+    float: left;
+    height: 10px;
+    margin: 5px 0 0 5px;
+    width: 10px
+}
+.thumbnail {
+    border: 0;
+    border-radius: 0;
+    max-height: 240px;
+    padding: 0;
+    overflow: hidden
+}
+.about .thumbnail {
+    max-height: 700px !important;
+}
+.about h2 {
+    margin: 0 0 40px
+}
+.contact .row {
+    margin: 80px 0 0
+}
+.contact .col-md-2 a {
+    display: block;
+    height: 80px;
+    margin: 0 auto 40px;
+    text-indent: -9999px;
+    width: 80px
+}
+.highlight {
+    background-color: #eaeff4;
+    color: #000;
+    padding: 0 10px 0
+}
+.right {
+    float: right
+}
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 0 20px 0 100px;
+        width: 100%
+    }
+    .slide img {
+        height: 100%;
+        width: auto
+    }
+    .contact .row:last-child {
+        margin: 0
+    }
+}
