@@ -53,3 +53,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'sitemap', '~> 0.3.3'
 gem 'xml-sitemap', '~> 1.3', '>= 1.3.3'
 gem 'metamagic'
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
