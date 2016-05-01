@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   get '/blognew', to: 'articles#new'
 
+  get '/blogedit', to: 'articles#index'
+
   get '/about', to: 'pages#about'
 
   get '/contact', to: 'pages#contact'
