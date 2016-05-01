@@ -1,3 +1,18 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.blog { 
+
+	color: #fff;
+	background: url(image-path("city")) no-repeat center center fixed !important;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+
+
+.jumbotron {
+	margin-top: 30px;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+
+}

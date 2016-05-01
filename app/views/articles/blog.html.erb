@@ -1,0 +1,15 @@
+<div class="blog">
+<div class="container">
+
+
+
+  <div class="jumbotron">
+  <% @articles.each do |article| %>    
+    <h1><%= article.title %></h1>
+    <p><%= article.text %>  </p>
+  <% end %>  
+  </div>
+
+</div>
+</div>
+
