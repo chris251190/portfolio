@@ -15,7 +15,7 @@
 //= require turbolinks
 //= require_tree .
 
-jQuery(document).ready(function($) {
+$(document).on('ready page:load', function(){
 			$('.slideshow').unslider({ autoplay: true, delay: 5000 });
 		});
 
